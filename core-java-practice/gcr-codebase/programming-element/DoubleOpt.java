@@ -8,7 +8,8 @@ public class DoubleOpt {
         double operation1=a+b*c; //computing operation1
         double operation2=a*b+c;  //computing operation2
         double operation3=c+a/b;  //computing operation3
-        System.out.println("The result of Int Operation are"+operation1+","+operation2+","+operation3);
+        double operation4=a%b+c;   //computing operation4
+        System.out.println("The result of Int Operation are"+operation1+","+operation2+","+operation3 +"and"+operation4);
     }
 }
 

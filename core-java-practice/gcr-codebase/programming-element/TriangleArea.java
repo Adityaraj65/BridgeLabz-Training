@@ -11,5 +11,6 @@ public class TriangleArea {
         double baseInCm=base*2.54;
         double AreaInCm=0.5*heightInCm*baseInCm; // area of triangle in square centimetre
         System.out.println("Area of traingle with height "+height+" and base "+base+" in square inches is "+areaInInch+"and area in cm is "+AreaInCm);
+        sc.close();
     }
 }

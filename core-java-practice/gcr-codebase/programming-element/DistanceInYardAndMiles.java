@@ -7,7 +7,7 @@ public class DistanceInYardAndMiles {
         double distanceInyards=distanceInFeet/3;   //converting distance in yard
         double distanceInMiles=distanceInyards/1760;  //converting distance in miles
         System.out.println("Distance in yard is"+distanceInyards+"and distance in miles is "+distanceInMiles);
-
+        sc.close();
     }
 }
 

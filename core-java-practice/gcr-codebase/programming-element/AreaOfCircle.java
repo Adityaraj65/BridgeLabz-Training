@@ -6,7 +6,7 @@ public class AreaOfCircle {
         double radius = sc.nextDouble();
         double area=3.14*radius*radius;  //calculating area of circle
         System.out.println("area of circle is "+area);
-    
+        sc.close();
     }
     
 }

@@ -13,5 +13,6 @@ public class PerimeterOfRectangle {
         double perimeter = 2 * (length + breadth);
 
         System.out.println("Perimeter of Rectangle: " + perimeter);
+        sc.close();
     }
 }

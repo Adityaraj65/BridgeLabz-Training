@@ -9,6 +9,7 @@ public class HeightConversion {
         int  heightInFeet=(int)(heightInInch/12);   //converting height from inches to feet.
         double inches=heightInInch%12;
         System.out.println("Your Height in cm is "+heightInCm+" while in feet is "+heightInFeet+" and inches is "+inches);
+        sc.close();
 
     }
 }

@@ -10,5 +10,6 @@ public class KilometreToMile {
         double miles = kilometres * 0.621371;
 
         System.out.println("the total mile is " + miles+"for the given"+kilometres);
+        sc.close();
     }
 }

@@ -7,6 +7,7 @@ public class quotient_remainder {
         int quotient=number1/number2;  //calculating quotient of 2 number 
         int remainder=number1%number2;  // calculating remainder of 2 number 
         System.out.println("The Quotient is "+quotient+"and Remainder is "+remainder+" of two number "+number1 +" and "+number2 );
+        sc.close();
 
     }
 }

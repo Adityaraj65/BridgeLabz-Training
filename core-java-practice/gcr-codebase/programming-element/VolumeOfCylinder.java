@@ -10,5 +10,6 @@ public class VolumeOfCylinder {
         double volume = 3.14* radius * radius * height;
 
         System.out.println("Volume of Cylinder: " + volume);
+        sc.close();
     }
 }

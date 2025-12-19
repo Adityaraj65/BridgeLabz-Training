@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class HeightConversion {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
-       
+        System.out.println("Enter height:");
         double heightInCm=sc.nextDouble();  //taking height as input in centimeters 
         
         double heightInInch=heightInCm/2.54;  //converting height from centimeters to inches 

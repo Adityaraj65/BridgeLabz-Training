@@ -2,8 +2,11 @@ import java.util.Scanner;
 public class DoubleOpt {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
+        System.out.println("Enter value a :");
         double a =sc.nextDouble();
+        System.out.println("Enter value b");
         double b=sc.nextDouble();
+        System.out.println("Enter value c");
         double c=sc.nextDouble();
         double operation1=a+b*c; //computing operation1
         double operation2=a*b+c;  //computing operation2

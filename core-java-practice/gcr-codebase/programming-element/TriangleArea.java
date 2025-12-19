@@ -2,7 +2,9 @@ import java.util.Scanner;
 public class TriangleArea {
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
+        System.out.println("Enter base of triangle ");
         int base =sc.nextInt();
+        System.out.println("Enter height of triangle :");
         int height=sc.nextInt();
         double areaInInch=0.5*base*height;  // area of triangle in square inches.
         double heightInCm=height*2.54;

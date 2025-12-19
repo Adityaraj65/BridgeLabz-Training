@@ -8,7 +8,7 @@ public class Calculator {
         double addition=number1+number2;
         double subtraction=number1-number2;
         double muliplication=number1*number2;
-        double Division=number1/number2;
-        System.out.println("The addition,subtraction,multiplicationand division value of 2 numbers "+number1+" and "+number2+" is "+addition+","+subtraction+","+muliplication+" and "+ Division);
+        double division=number1/number2;
+        System.out.println("The addition,subtraction,multiplicationand division value of 2 numbers "+number1+" and "+number2+" is "+addition+","+subtraction+","+muliplication+" and "+ division);
     }
 }

@@ -1,25 +1,23 @@
+import java.util.Scanner;
+
 public class DayOfWeek {
 
     public static void main(String[] args) {
 
-        // Read command-line arguments
-        int month = Integer.parseInt(args[0]);
-        int day = Integer.parseInt(args[1]);
-        int year = Integer.parseInt(args[2]);
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter month, day and year:");
 
-        // Adjust year based on month
-        int adjustedYear = year - (14 - month) / 12;
+        int month = sc.nextInt();
+        int day = sc.nextInt();
+        int year = sc.nextInt();
 
-        // Calculate intermediate value x
-        int x = adjustedYear + adjustedYear / 4 - adjustedYear / 100 + adjustedYear / 400;
+        int y0 = year - (14 - month) / 12;
+        int x = y0 + y0 / 4 - y0 / 100 + y0 / 400;
+        int m0 = month + 12 * ((14 - month) / 12) - 2;
+        int d0 = (day + x + (31 * m0) / 12) % 7;
 
-        // Adjust month value
-        int adjustedMonth = month + 12 * ((14 - month) / 12) - 2;
+        System.out.println("Day of Week : " + d0);
 
-        // Calculate day of week
-        int dayOfWeek = (day + x + (31 * adjustedMonth) / 12) % 7;
-
-        // Print result where 0 = Sunday, 1 = Monday, ..., 6 = Saturday
-        System.out.println(dayOfWeek);
+        sc.close();
     }
 }

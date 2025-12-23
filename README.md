@@ -1,18 +1,16 @@
 # BridgeLabz-Training
 Repository Structure 
 BridgeLabz-Training/
-│
-├── core-java-practice/ (Primary working branch)
-│ │
-│ ├── gcr-codebase/
-│ │ ├── programming-elements/
-│ │ └── control-flow/
-│ │
-│ ├── leet-code-codebase/
-│ │
-│ └── scenario-based/
-│
+
+### Project Structure
+├── core-java-practice/      # Primary working branch
+│   ├── gcr-codebase/
+│   │   ├── programming-elements/
+│   │   └── control-flow/
+│   ├── leet-code-codebase/
+│   └── scenario-based/
 └── README.md
+
 -------------------------------------------------
      ||  Day-Wise Learning & Assignments     | |
 -------------------------------------------------

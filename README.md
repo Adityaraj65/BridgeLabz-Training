@@ -1,118 +1,91 @@
-# BridgeLabz-Training
-Repository Structure 
-BridgeLabz-Training/
-│
-├── core-java-practice/   (Primary working branch)
-│   │
-│   ├── gcr-codebase/
-│   │   ├── programming-elements/
-│   │   └── control-flow/
-│   │
-│   ├── leet-code-codebase/
-│   │
-│   └── scenario-based/
-│
-└── README.md
--------------------------------------------------
-     ||  Day-Wise Learning & Assignments     | |
--------------------------------------------------
+# BridgeLabz Training 
 
-Week 01 – Core Programming
----------------------------
-Day 01 – Java Programming Elements
-------------------------------------
+This repository represents my learning journey during the **BridgeLabz Core Java Training **.  
+I am using this repository to track my daily progress, practice problems, and concepts learned while strengthening my Java fundamentals.
 
-Topics Covered:
+---
 
-Java environment setup
+## Repository Structure
 
-Variables, literals, and primitive data types
 
-Basic input/output using Scanner
+---
 
-Coding standards and best practices
+## Learning Progress
 
-Assignment Completed:
+### Week 01 – Java Fundamentals
 
-Submission of Programming Elements Practices
+#### 17 December 2025 (Wednesday)
+- Set up development environment (Git, GitHub, Eclipse IDE)
+- Understood how BridgeLabz training workflow works
+- Practiced basic Java programming elements
+- Solved daily LeetCode practice questions
+- Worked on basic problems under:
+  `gcr-codebase/programming-elements`
 
-📁 Folder:
-core-java-practice/gcr-codebase/programming-elements/
+#### 18 December 2025 (Thursday)
+- Practiced Java Programming Elements in detail
+- Solved Level-1 problems (basic logic building)
+- Solved Level-2 problems (conditional logic and calculations)
+- Improved understanding of Java syntax and program structure
 
-Day 02 – Control Flow in Java
----------------------------------
+#### 19 December 2025 (Friday)
+- Studied Java Control Flow concepts
+- Practiced:
+  - Level-1 Control Flow problems
+  - Level-2 Control Flow problems
+  - Level-3 Control Flow problems
+- Focused on if-else, switch cases, loops, and logical conditions
 
-Topics Covered:
+#### 20 December 2025 (Saturday)
+- Started working with Arrays
+- Solved Arrays Level-1 problems
+- Solved Arrays Level-2 problems
+- Solved scenario-based questions using arrays
+- Improved understanding of indexing and traversal
 
-Conditional statements (if, else, switch)
+---
 
-Looping constructs (for, while, do-while)
+### Week 02 – Java Fundamentals (Continued)
 
-Control flow (break, continue)
+#### 22 December 2025 (Monday)
+- Started learning Java String handling
+- Practiced String Level-1 problems
+- Practiced String Level-2 problems
+- Focused on string manipulation and logic
 
-Assignment Completed:
+#### 23 December 2025 (Tuesday)
+- Solved String Level-3 problems
+- Worked on scenario-based problems involving strings
+- Improved problem-solving approach for real-world cases
 
-Submission on Control Flow Practices
+---
 
-📁 Folder:
-core-java-practice/gcr-codebase/control-flow/
+## Learning Focus
 
-Day 03 – Arrays in Java
-------------------------
+- Java programming fundamentals
+- Logic building and problem solving
+- Control flow and decision making
+- Arrays and string manipulation
+- Writing clean and readable Java code
 
-Topics Covered:
+---
 
-Single-dimensional arrays
+## Repository Links
 
-Array traversal
+- Core Java Practice  
+  https://github.com/Adityaraj65/BridgeLabz-Training/tree/core-java-practice
 
-Frequency counting and basic array problems
+- GCR Codebase  
+  https://github.com/Adityaraj65/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase
 
-Assignment Completed:
+- LeetCode Codebase  
+  https://github.com/Adityaraj65/BridgeLabz-Training/tree/core-java-practice/core-java-practice/leet-code-codebase
 
-Submissions on Arrays Practices
+- Scenario-Based Problems  
+  https://github.com/Adityaraj65/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based
 
-📁 Folder:
-core-java-practice/gcr-codebase/arrays/ (if applicable)
+---
 
-Scenario-Based Java Problems
+## Author
 
-Implemented real-world programs incorporating:
-
-Variables & data types
-
-Scanner-based input
-
-Conditional logic
-
-Loops and control flow
-
-Clean code practices
-
-Examples:
-
-Coffee Counter Chronicles
-
-Menu-driven program using switch
-
-Billing and GST calculation
-
-Continuous execution using loops
-
-BMI Fitness Tracker
-
-Height and weight input
-
-BMI calculation
-
-Category classification using if-else
-
-📁 Folder:
-core-java-practice/scenario-based/
-
-LeetCode Practice
-
-Daily logic-building and problem-solving using Java.
-
-📁 Folder:
-core-java-practice/leet-code-codebase/
+Aditya Raj

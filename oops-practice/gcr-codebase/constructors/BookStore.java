@@ -27,6 +27,7 @@ class Books{
 		this.price=price;
 		
 	}
+	//method to display book details
 	void displayDetails() {
         System.out.println("Title  : " + title);
         System.out.println("Author : " + author);

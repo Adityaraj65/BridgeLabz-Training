@@ -1,12 +1,14 @@
 public class BookLibrarySystem {
 
 	public static void main(String[] args) {
+        // Create an EBook object
         EBook ebook = new EBook("5757574445", "jaya", "devadutt patnayak", 5.2);
         ebook.displayEBookDetails();
 
 	}
 
 }
+
 class BookDetails{
 
     public String ISBN;

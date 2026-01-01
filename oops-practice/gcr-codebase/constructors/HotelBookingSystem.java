@@ -2,10 +2,11 @@
 public class HotelBookingSystem {
 
 	public static void main(String[] args) {
+        // Create HotelBooking objects
         HotelBooking b1 = new HotelBooking();
         HotelBooking b2 = new HotelBooking("Raushan", "Deluxe", 3);
         HotelBooking b3 = new HotelBooking(b2);
-
+        // Display booking details
         b1.displayBooking();
         b2.displayBooking();
         b3.displayBooking();

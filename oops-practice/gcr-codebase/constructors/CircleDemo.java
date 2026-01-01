@@ -2,7 +2,7 @@
 public class CircleDemo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Create Circle objects
 		Circles circle1= new Circles();
 		Circles circle2=new Circles(12.0);
 		System.out.println("Default Circle Area: " + circle1.calculateArea());
@@ -13,9 +13,11 @@ public class CircleDemo {
 }
 class Circles{
 	double radius;
+	//default constructor
 	Circles(){
 		this(1.0);
 	}
+	//parameterized constructor
 	Circles(double radius){
 		this.radius=radius;
 	}

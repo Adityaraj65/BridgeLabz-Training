@@ -11,18 +11,19 @@ public class LibraryBookSystem {
 
 }
 class LibraryBook {
+    // instance variables
     String title;
     String author;
     double price;
     boolean isAvailable;
-
+   // parameterized constructor
     LibraryBook(String title, String author, double price) {
         this.title = title;
         this.author = author;
         this.price = price;
         this.isAvailable = true;
     }
-
+    // method to borrow book
     void borrowBook() {
         if (isAvailable) {
             isAvailable = false;
@@ -31,7 +32,7 @@ class LibraryBook {
             System.out.println("Sorry, book is not available.");
         }
     }
-
+    // method to display book details
     void displayBook() {
         System.out.println("Title: " + title);
         System.out.println("Author: " + author);

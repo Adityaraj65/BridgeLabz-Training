@@ -18,14 +18,14 @@ public class RestaurantManagementSystem {
 }
 
 // Common parent class
-class Person {
+class Person1 {
 
     // Basic details every person has
     String name;
     int id;
 
     // Set name and id
-    Person(String name, int id) {
+    Person1(String name, int id) {
         this.name = name;
         this.id = id;
     }
@@ -45,7 +45,7 @@ interface Worker {
 }
 
 // Chef is a Person and also a Worker
-class Chef extends Person implements Worker {
+class Chef extends Person1 implements Worker {
 
     Chef(String name, int id) {
         super(name, id);
@@ -59,7 +59,7 @@ class Chef extends Person implements Worker {
 }
 
 // Waiter is a Person and also a Worker
-class Waiter extends Person implements Worker {
+class Waiter extends Person1 implements Worker {
 
     Waiter(String name, int id) {
         super(name, id);

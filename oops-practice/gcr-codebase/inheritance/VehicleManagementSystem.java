@@ -1,24 +1,30 @@
 package inheritance;
+
+// Interface
+interface Refuelable {
+    void refuel();
+}
+
 public class VehicleManagementSystem {
     public static void main(String[] args) {
 
-        PetrolVehicle petrolCar = new PetrolVehicle(180, "Honda City");
+        PetrolVehicle1 petrolCar = new PetrolVehicle1(180, "Honda City");
         petrolCar.displayDetails();
         petrolCar.refuel();
         System.out.println();
 
-        ElectricVehicle electricCar = new ElectricVehicle(160, "Tesla Model 3");
+        ElectricVehicle1 electricCar = new ElectricVehicle1(160, "Tesla Model 3");
         electricCar.displayDetails();
         electricCar.charge();
     }
 }
 
 // Base class
-class Vehicle {
+class Vehicle1 {
     int maxSpeed;
     String model;
 
-    Vehicle(int maxSpeed, String model) {
+    Vehicle1(int maxSpeed, String model) {
         this.maxSpeed = maxSpeed;
         this.model = model;
     }
@@ -29,15 +35,10 @@ class Vehicle {
     }
 }
 
-// Interface
-interface Refuelable {
-    void refuel();
-}
-
 // Petrol vehicle
-class PetrolVehicle extends Vehicle implements Refuelable {
+class PetrolVehicle1 extends Vehicle1 implements Refuelable {
 
-    PetrolVehicle(int maxSpeed, String model) {
+    PetrolVehicle1(int maxSpeed, String model) {
         super(maxSpeed, model);
     }
 
@@ -45,16 +46,28 @@ class PetrolVehicle extends Vehicle implements Refuelable {
     public void refuel() {
         System.out.println("Action    : Refueling petrol tank");
     }
+
+    @Override
+    void displayDetails() {
+        super.displayDetails();
+        System.out.println("Type      : Petrol Vehicle");
+    }
 }
 
 // Electric vehicle
-class ElectricVehicle extends Vehicle {
+class ElectricVehicle1 extends Vehicle1 {
 
-    ElectricVehicle(int maxSpeed, String model) {
+    ElectricVehicle1(int maxSpeed, String model) {
         super(maxSpeed, model);
     }
 
     void charge() {
         System.out.println("Action    : Charging the battery");
+    }
+
+    @Override
+    void displayDetails() {
+        super.displayDetails();
+        System.out.println("Type      : Electric Vehicle");
     }
 }

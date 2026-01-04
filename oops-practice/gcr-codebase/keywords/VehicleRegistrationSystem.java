@@ -1,3 +1,5 @@
+package keywords;
+
 public class VehicleRegistrationSystem {
     public static void main(String[] args) {
 

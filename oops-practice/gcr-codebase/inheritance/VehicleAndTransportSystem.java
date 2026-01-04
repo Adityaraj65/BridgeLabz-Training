@@ -3,13 +3,13 @@ package inheritance;
 public class VehicleAndTransportSystem {
     public static void main(String[] args) {
         // Creating instances of each vehicle subclass
-        Vehicle[] vehicles = new Vehicle[3];
+        Vehicle[] vehicle1s = new Vehicle[3];
 
-        vehicles[0] = new Car(180, "Petrol", 5);
-        vehicles[1] = new Truck(120, "Diesel", 10000);
-        vehicles[2] = new MotorCycle(150, "Petrol", "150cc");
+        vehicle1s[0] = new Car(180, "Petrol", 5);
+        vehicle1s[1] = new Truck(120, "Diesel", 10000);
+        vehicle1s[2] = new MotorCycle(150, "Petrol", "150cc");
         // Displaying their details
-        for (Vehicle v : vehicles) {
+        for (Vehicle v : vehicle1s) {
             v.displayInfo();
             System.out.println();
         }

@@ -43,7 +43,7 @@ class Person {
 }
 
 // Teacher is a type of Person
-class Teacher extends Person {
+class Teacher extends Person1 {
 
     // Subject taught by teacher
     String subject;
@@ -66,7 +66,7 @@ class Teacher extends Person {
 }
 
 // Student is a type of Person
-class Student extends Person {
+class Student extends Person1 {
 
     // Grade or class of student
     String grade;
@@ -88,7 +88,7 @@ class Student extends Person {
 }
 
 // Staff is a type of Person
-class Staff extends Person {
+class Staff extends Person1 {
 
     // Department where staff works
     String department;

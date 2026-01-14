@@ -131,6 +131,43 @@ I am using this repository to track my daily progress, practice problems, and co
 📝 Story: This assignment demonstrates inheritance by creating parent and child classes to achieve code reusability, hierarchical relationships, and method overriding in Java.
 🔗 [Code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/inheritance)
 
+📅 03/01/26📌 Methods – Bank Account Manager
+📝 Story:This assignment demonstrates methods and encapsulation by implementing a BankAccount class with deposit, withdraw, and balance check operations, including overdraft prevention logic.
+🔗 [Code:](https://github.com/Adityaraj65/BridgeLabz-Training/blob/oops-practice/oops-practice/scenario-based/BankAccountManager.java)
+
+
+📅 03/01/26📌 Utility Class – Mathematical Operations
+📝 Story:This assignment implements a utility class with methods for factorial, prime check, GCD, and Fibonacci calculation, including handling of edge cases like zero and negative numbers.
+🔗 [Code:](https://github.com/Adityaraj65/BridgeLabz-Training/blob/oops-practice/oops-practice/scenario-based/MathematicalOperation.java)
+
+📅 12/01/26📌 Scenario Based OOP Systems
+📝 Story: Implemented multiple real-world systems to practice OOP concepts like encapsulation, inheritance, abstraction, polymorphism, interfaces, and exception handling.
+
+✅ E-Commerce Order Management System🔗 Code: [code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based/ecommerce)
+
+✅ Student Course Registration System🔗 Code: [code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based/CourseRegistrationSystem)
+
+✅ Cab Booking / Ride Management System🔗 Code: [code:](https://github.com/Adityaraj65/BridgeLabz-Training/blob/oops-practice/oops-practice/scenario-based/RideManagementSystem.java)
+
+✅ Hospital Management System🔗 Code: [code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based/HospitalManagementSystem)
+
+✅ Online Examination System🔗 Code: [code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based/ExaminationSystem)
+
+✅ Hotel Reservation System🔗 Code: [code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based/hotel_reservation)
+
+✅ Online Voting System🔗 Code: [code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based/OnlineVotingSystem)
+
+✅ Digital Wallet System 🔗 Code: [code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based/digitalwallet)
+
+
+##  dsa-practice Branch
+
+📅 08/01/26  
+📌 Data Structures – LinkedList  
+📝 Story: Solved problems related to LinkedList covering insertion, deletion, traversal, and basic operations.  
+🔗 Code: [code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/linked_list)
+
+
 ---
 
 ## Repository Links

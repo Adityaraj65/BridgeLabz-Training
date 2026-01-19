@@ -15,4 +15,15 @@ public class AddressBookDaoImpl implements AddressBookDao {
         contactList.add(person);
         System.out.println("Contact added successfully.");
     }
+    @Override
+    public ContactPerson findByName(String firstName, String lastName) {
+        for (ContactPerson person : contactList) {
+            if (person.getFirstName().equalsIgnoreCase(firstName)
+                    && person.getLastName().equalsIgnoreCase(lastName)) {
+                return person;
+            }
+        }
+        return null;
+    }
+
 }

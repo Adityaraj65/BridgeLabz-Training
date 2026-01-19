@@ -44,10 +44,29 @@ public class AddressBookMain {
                 firstName, lastName, address,
                 city, state, zip, phone, email
         );
+        System.out.print("Enter new Address: ");
+        String newAddress = sc.nextLine();
+
+        System.out.print("Enter new City: ");
+        String newCity = sc.nextLine();
+
+        System.out.print("Enter new State: ");
+        String newState = sc.nextLine();
+
+        System.out.print("Enter new Zip: ");
+        String newZip = sc.nextLine();
+
+        System.out.print("Enter new Phone: ");
+        String newPhone = sc.nextLine();
+
+        System.out.print("Enter new Email: ");
+        String newEmail = sc.nextLine();
 
         AddressBookService service = new AddressBookServiceImpl();
         service.addContact(person);
-
+        service.editContact(firstName, lastName,
+                newAddress, newCity, newState,
+                newZip, newPhone, newEmail);
         sc.close();
     }
 }

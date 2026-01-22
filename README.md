@@ -1,118 +1,224 @@
-# BridgeLabz-Training
-Repository Structure 
-BridgeLabz-Training/
-│
-├── core-java-practice/   (Primary working branch)
-│   │
-│   ├── gcr-codebase/
-│   │   ├── programming-elements/
-│   │   └── control-flow/
-│   │
-│   ├── leet-code-codebase/
-│   │
-│   └── scenario-based/
-│
-└── README.md
--------------------------------------------------
-     ||  Day-Wise Learning & Assignments     | |
--------------------------------------------------
+# BridgeLabz Training
 
-Week 01 – Core Programming
----------------------------
-Day 01 – Java Programming Elements
-------------------------------------
+This repository represents my learning journey during the **BridgeLabz Core Java Training **.  
+I am using this repository to track my daily progress, practice problems, and concepts learned while strengthening my Java fundamentals.
 
-Topics Covered:
+---
 
-Java environment setup
+## Repository Structure
 
-Variables, literals, and primitive data types
 
-Basic input/output using Scanner
+---
 
-Coding standards and best practices
+## Learning Progress
 
-Assignment Completed:
+### Week 01 – Java Fundamentals
 
-Submission of Programming Elements Practices
+📅 17/12/25 (Wednesday) 📌 Setup and Java Basics
+📝 Story: Set up the development environment including Git, GitHub, and Eclipse IDE. Understood BridgeLabz training workflow and practiced Java fundamentals. Solved basic programming challenges.
+🔗 [Code](https://github.com/Adityaraj65/BridgeLabz-Training/tree/core-java-practice)
 
-📁 Folder:
-core-java-practice/gcr-codebase/programming-elements/
 
-Day 02 – Control Flow in Java
----------------------------------
+📅 18/12/25 (Thursday)📌 Java Programming Elements Practice
+📝 Story: Practiced Java programming elements in detail. Solved Level-1 and Level-2 problems to strengthen foundational logic, syntax, and control flow skills.
+🔗 [Code:]( https://github.com/Adityaraj65/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/programming-elements)
 
-Topics Covered:
 
-Conditional statements (if, else, switch)
+📅 19/12/25 (Friday) 📌 Java Control Flow Practice
+📝 Story: Studied Java control flow concepts and practiced multiple levels of problems involving conditional logic, loops, and switch statements.
+🔗 [Code: ](https://github.com/Adityaraj65/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/control-flow)
 
-Looping constructs (for, while, do-while)
 
-Control flow (break, continue)
+📅 20/12/25 (Saturday) 📌 Arrays Practice and Scenarios
+📝 Story: Started working with arrays. Solved Level-1 and Level-2 array problems and scenario-based questions involving array traversal and manipulation.
+🔗 [Code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/arrays)
 
-Assignment Completed:
 
-Submission on Control Flow Practices
+---
 
-📁 Folder:
-core-java-practice/gcr-codebase/control-flow/
+### Week 02 – Java Fundamentals (Continued)
 
-Day 03 – Arrays in Java
-------------------------
+📅 22/12/25 (Monday)📌 Java String Handling – Level-1 & Level-2
+📝 Story: Began learning Java string operations. Practiced String Level-1 and Level-2 problems to improve understanding of string manipulation and logic.
+🔗 [Code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/string)
 
-Topics Covered:
+📅 23/12/25 (Tuesday)
 
-Single-dimensional arrays
+📌 Java String Handling – Level-3 & Scenario Problems
+📝 Story: Solved advanced String Level-3 problems and scenario-based challenges that require real-world string logic and manipulation using Java APIs.
+🔗 [Code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/string)
 
-Array traversal
+📅 24/12/25 (wed) – Java Methods<br>
+Topics: Creating reusable methods, method overloading, returning values, and passing arguments (by value), plus real-world use cases<br>
+🔗  [Code](https://github.com/Adityaraj65/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/methods)<br>
 
-Frequency counting and basic array problems
 
-Assignment Completed:
+📅 26/12/25 (fri)  – Java Built-In Functions<br>
+Topics: Working with built-in Java libraries: Math (rounding, powers, roots), Arrays utility class, and basic intro to Collections<br>
+🔗 [Code](https://github.com/Adityaraj65/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/extras/built-in-function)<br>
 
-Submissions on Arrays Practices
+### Week 03 – Java Fundamentals (Continued)
 
-📁 Folder:
-core-java-practice/gcr-codebase/arrays/ (if applicable)
+📅 29/12/25 (Mon)  – Java String Handling<br>
+Topics: Mutable vs immutable strings, StringBuilder & StringBuffer, performance comparison, string reversal and manipulation<br>
+🔗 [Code](https://github.com/Adityaraj65/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/string)<br>
 
-Scenario-Based Java Problems
+### 📂 scenario-based folder :
 
-Implemented real-world programs incorporating:
+📅 29/12/25 (Mon) - Scenario Based Question<br>
 
-Variables & data types
+🏋️ Sandeep’s Fitness Challenge Tracker
+📝 Story: Each day Sandeep completes a number of push-ups. The system stores push-up counts for a week, calculates the total and average using a for-each loop, and skips rest days using continue.
+🔗 [Code](https://github.com/Adityaraj65/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based)<br>
 
-Scanner-based input
 
-Conditional logic
+🎬 Movie Ticket Booking App
+📝 Story: A movie booking application allows multiple customers to select movie type, seat category (gold/silver), and snacks. The system uses switch and if statements together while looping through customers.
+🔗 [Code](https://github.com/Adityaraj65/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based)<br>
 
-Loops and control flow
+📚 Rohan’s Library Reminder App
+📝 Story: Rohan wants a reminder system to calculate library fines. The application takes due and return dates, calculates late fines at ₹5 per day, and repeats the process for five books using a for-loop.
+🔗 [Code](https://github.com/Adityaraj65/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based).<br>
 
-Clean code practices
+⏱️ Digital Watch Simulation
+📝 Story: A digital watch simulation displays time in a 24-hour format using nested loops and stops execution at 13:00 using break to simulate a power cut.
+🔗 [Code](https://github.com/Adityaraj65/BridgeLabz-Training/blob/core-java-practice/core-java-practice/scenario-based/DigitalWatchSimulation.java)<br>
 
-Examples:
+📅 30/12/25 (Tue) - 💼 Employee Wage Computation Problem
+📝 Story: A company wants to compute employee wages based on daily attendance and working hours. The system checks whether an employee is present or absent, calculates daily wages, and continues computation until a maximum number of working days or hours is reached using loops and conditional statements.
+🔗 [Code](https://github.com/Adityaraj65/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based/EmployeeWageComputation.java)<br>
 
-Coffee Counter Chronicles
 
-Menu-driven program using switch
+📅 30/12/25 (Tue) – 📏 Line Comparison Problem
+📝 Story: A geometry-based application compares two lines based on their end points. The system calculates the length of each line, checks if both lines are equal, and determines which line is greater or smaller using mathematical calculations and comparison logic.
+🔗 [Code](https://github.com/Adityaraj65/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based/LineComparisonProblem.java)<br>
 
-Billing and GST calculation
+📅 30/12/25 - Scenario-based -Snake & Ladder Problem
+📝 Story: A simulation-based program that models the Snake and Ladder game using dice rolls, player positions, and conditional logic to determine gameplay and winning conditions.
+🔗 [Code](https://github.com/Adityaraj65/BridgeLabz-Training/blob/core-java-practice/core-java-practice/scenario-based/SnakeAndLadderProblem.java)
 
-Continuous execution using loops
+### Week 03 – oops-practice
 
-BMI Fitness Tracker
+## 🧱 oops-practice Branch
 
-Height and weight input
 
-BMI calculation
+📅 30/12/25 - Java Class and Object
+📝 Story: This assignment focuses on understanding the foundation of object-oriented programming by defining classes and creating objects. It helps model real-world entities using attributes and methods.
+🔗 [Code](https://github.com/Adityaraj65/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/class-and-object)
 
-Category classification using if-else
 
-📁 Folder:
-core-java-practice/scenario-based/
+📅 30/12/25 (Mon) – Day 9 – Object Oriented Programming Fundamentals
 
-LeetCode Practice
+🧱 Object Oriented Design Principles
+📝 Story: This assignment focuses on applying object-oriented design principles such as abstraction, encapsulation, and modular design to create structured and maintainable programs.
+🔗 [Code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/object-modeling)
 
-Daily logic-building and problem-solving using Java.
+📅 31/12/25 📌 Java Constructors, Instance vs Class Variables, Access Modifiers
+📝 Story: This lab practice explores object initialization using constructors, differentiates between instance and static variables, and applies access modifiers to control visibility and encapsulation.
+🔗 [Code](https://github.com/Adityaraj65/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/constructors)
 
-📁 Folder:
-core-java-practice/leet-code-codebase/
+📅 01/01/26 📌 this, static, final Keywords and instanceof Operator
+📝 Story: This assignment focuses on understanding core Java keywords such as this, static, and final, along with runtime type checking using the instanceof operator for safe object handling.
+🔗 [Code](https://github.com/Adityaraj65/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/keywords)
+
+
+
+📅 02/01/26📌 Object Oriented Design Principles (Object Modeling)
+📝 Story: This assignment emphasizes object-oriented design principles by modeling real-world problems using objects, relationships, and structured design for better maintainability.
+🔗 [Code](https://github.com/Adityaraj65/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/object-modeling)
+
+📅 03/01/26📌 Inheritance
+📝 Story: This assignment demonstrates inheritance by creating parent and child classes to achieve code reusability, hierarchical relationships, and method overriding in Java.
+🔗 [Code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/inheritance)
+
+📅 03/01/26📌 Methods – Bank Account Manager
+📝 Story:This assignment demonstrates methods and encapsulation by implementing a BankAccount class with deposit, withdraw, and balance check operations, including overdraft prevention logic.
+🔗 [Code:](https://github.com/Adityaraj65/BridgeLabz-Training/blob/oops-practice/oops-practice/scenario-based/BankAccountManager.java)
+
+
+📅 03/01/26📌 Utility Class – Mathematical Operations
+📝 Story:This assignment implements a utility class with methods for factorial, prime check, GCD, and Fibonacci calculation, including handling of edge cases like zero and negative numbers.
+🔗 [Code:](https://github.com/Adityaraj65/BridgeLabz-Training/blob/oops-practice/oops-practice/scenario-based/MathematicalOperation.java)
+
+📅 05/01/26📌 scenario based problem
+📝 Story:implemented Invoice generator for freelancer
+🔗 [Code:](https://github.com/Adityaraj65/BridgeLabz-Training/blob/oops-practice/oops-practice/scenario-based/InvoiceGenerator.java)
+
+📅 05/01/26📌 scenario based problem
+📝 Story:implemented cafeteria menu app in which task is to display menu and take order
+🔗 [Code:](https://github.com/Adityaraj65/BridgeLabz-Training/blob/oops-practice/oops-practice/scenario-based/CafeteriaMenuApp.java)
+
+📅 06/01/26📌 scenario based problem
+📝 Story: 1.Phone contact organizer 
+          2.online quiz platform .
+          3.student report generator
+          4.Library management System
+🔗 [Code:](https://github.com/Adityaraj65/BridgeLabz-Training/blob/oops-practice/oops-practice/scenario-based)
+
+
+📅 12/01/26📌 Scenario Based problem
+📝 Story: Implemented multiple real-world systems to practice OOP concepts like encapsulation, inheritance, abstraction, polymorphism, interfaces, and exception handling.
+
+✅ E-Commerce Order Management System🔗 Code: [code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based/ecommerce)
+
+✅ Student Course Registration System🔗 Code: [code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based/CourseRegistrationSystem)
+
+✅ Cab Booking / Ride Management System🔗 Code: [code:](https://github.com/Adityaraj65/BridgeLabz-Training/blob/oops-practice/oops-practice/scenario-based/RideManagementSystem.java)
+
+✅ Hospital Management System🔗 Code: [code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based/HospitalManagementSystem)
+
+✅ Online Examination System🔗 Code: [code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based/ExaminationSystem)
+
+✅ Hotel Reservation System🔗 Code: [code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based/hotel_reservation)
+
+✅ Online Voting System🔗 Code: [code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based/OnlineVotingSystem)
+
+✅ Digital Wallet System 🔗 Code: [code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based/digitalwallet)
+
+
+##  dsa-practice Branch
+
+📅 08/01/26  
+📌 Data Structures – LinkedList
+📝 Story: Solved problems related to LinkedList covering insertion, deletion, traversal, and basic operations.  
+🔗 Code: [code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/linked_list)
+
+📅 15/01/26  
+📌 Data Structures – Stack ,queue,hashmap 
+📝 Story: Solved problems related to stack,queue,hashmap and their implementation  
+🔗 Code: [code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/stackAndQueue)
+🔗 Code: [code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/Hashmap)
+
+📅 17/01/26  
+📌 Data Structures – Sorting algorithm 
+📝 Story: solved sorting related problem.  
+🔗 Code: [code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/sorting)
+
+📅 17/01/26  
+📌 Data Structures – Linear Search and binary search. 
+📝 Story: Solved problems related to linear and binary Search
+🔗 Code: [code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/linear_and_binary_search)
+
+📅 20/01/26  
+📌 Data Structures – Runtime analysis 
+📝 Story: Compare performance of various algorithm .  
+🔗 Code: [code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/algorithm_analysis)
+
+
+
+
+---
+
+## Repository Links
+
+- Core Java Practice  
+  https://github.com/Adityaraj65/BridgeLabz-Training/tree/core-java-practice
+
+-oops-practice
+https://github.com/Adityaraj65/BridgeLabz-Training/tree/oops-practice
+
+---
+
+## Author
+
+Aditya Raj

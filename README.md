@@ -1,4 +1,4 @@
-# BridgeLabz Training 
+# BridgeLabz Training
 
 This repository represents my learning journey during the **BridgeLabz Core Java Training **.  
 I am using this repository to track my daily progress, practice problems, and concepts learned while strengthening my Java fundamentals.
@@ -49,19 +49,19 @@ I am using this repository to track my daily progress, practice problems, and co
 🔗 [Code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/core-java-practice/gcr-codebase/string)
 
 📅 24/12/25 (wed) – Java Methods<br>
-  Topics: Creating reusable methods, method overloading, returning values, and passing arguments (by value), plus real-world use cases<br>
-  🔗  [Code](https://github.com/Adityaraj65/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/methods)<br>
+Topics: Creating reusable methods, method overloading, returning values, and passing arguments (by value), plus real-world use cases<br>
+🔗  [Code](https://github.com/Adityaraj65/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/methods)<br>
 
 
 📅 26/12/25 (fri)  – Java Built-In Functions<br>
-  Topics: Working with built-in Java libraries: Math (rounding, powers, roots), Arrays utility class, and basic intro to Collections<br>
-  🔗 [Code](https://github.com/Adityaraj65/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/extras/built-in-function)<br>
+Topics: Working with built-in Java libraries: Math (rounding, powers, roots), Arrays utility class, and basic intro to Collections<br>
+🔗 [Code](https://github.com/Adityaraj65/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/extras/built-in-function)<br>
 
 ### Week 03 – Java Fundamentals (Continued)
 
 📅 29/12/25 (Mon)  – Java String Handling<br>
-  Topics: Mutable vs immutable strings, StringBuilder & StringBuffer, performance comparison, string reversal and manipulation<br>
-  🔗 [Code](https://github.com/Adityaraj65/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/string)<br>
+Topics: Mutable vs immutable strings, StringBuilder & StringBuffer, performance comparison, string reversal and manipulation<br>
+🔗 [Code](https://github.com/Adityaraj65/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/string)<br>
 
 ### 📂 scenario-based folder :
 
@@ -74,7 +74,7 @@ I am using this repository to track my daily progress, practice problems, and co
 
 🎬 Movie Ticket Booking App
 📝 Story: A movie booking application allows multiple customers to select movie type, seat category (gold/silver), and snacks. The system uses switch and if statements together while looping through customers.
-🔗 [Code](https://github.com/Adityaraj65/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based)<br>  
+🔗 [Code](https://github.com/Adityaraj65/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based)<br>
 
 📚 Rohan’s Library Reminder App
 📝 Story: Rohan wants a reminder system to calculate library fines. The application takes due and return dates, calculates late fines at ₹5 per day, and repeats the process for five books using a for-loop.
@@ -97,7 +97,7 @@ I am using this repository to track my daily progress, practice problems, and co
 📝 Story: A simulation-based program that models the Snake and Ladder game using dice rolls, player positions, and conditional logic to determine gameplay and winning conditions.
 🔗 [Code](https://github.com/Adityaraj65/BridgeLabz-Training/blob/core-java-practice/core-java-practice/scenario-based/SnakeAndLadderProblem.java)
 
-### Week 03 – oops-practice 
+### Week 03 – oops-practice
 
 ## 🧱 oops-practice Branch
 
@@ -140,7 +140,23 @@ I am using this repository to track my daily progress, practice problems, and co
 📝 Story:This assignment implements a utility class with methods for factorial, prime check, GCD, and Fibonacci calculation, including handling of edge cases like zero and negative numbers.
 🔗 [Code:](https://github.com/Adityaraj65/BridgeLabz-Training/blob/oops-practice/oops-practice/scenario-based/MathematicalOperation.java)
 
-📅 12/01/26📌 Scenario Based OOP Systems
+📅 05/01/26📌 scenario based problem
+📝 Story:implemented Invoice generator for freelancer
+🔗 [Code:](https://github.com/Adityaraj65/BridgeLabz-Training/blob/oops-practice/oops-practice/scenario-based/InvoiceGenerator.java)
+
+📅 05/01/26📌 scenario based problem
+📝 Story:implemented cafeteria menu app in which task is to display menu and take order
+🔗 [Code:](https://github.com/Adityaraj65/BridgeLabz-Training/blob/oops-practice/oops-practice/scenario-based/CafeteriaMenuApp.java)
+
+📅 06/01/26📌 scenario based problem
+📝 Story: 1.Phone contact organizer
+2.online quiz platform .
+3.student report generator
+4.Library management System
+🔗 [Code:](https://github.com/Adityaraj65/BridgeLabz-Training/blob/oops-practice/oops-practice/scenario-based)
+
+
+📅 12/01/26📌 Scenario Based problem
 📝 Story: Implemented multiple real-world systems to practice OOP concepts like encapsulation, inheritance, abstraction, polymorphism, interfaces, and exception handling.
 
 ✅ E-Commerce Order Management System🔗 Code: [code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based/ecommerce)
@@ -163,9 +179,32 @@ I am using this repository to track my daily progress, practice problems, and co
 ##  dsa-practice Branch
 
 📅 08/01/26  
-📌 Data Structures – LinkedList  
+📌 Data Structures – LinkedList
 📝 Story: Solved problems related to LinkedList covering insertion, deletion, traversal, and basic operations.  
 🔗 Code: [code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/linked_list)
+
+📅 15/01/26  
+📌 Data Structures – Stack ,queue,hashmap
+📝 Story: Solved problems related to stack,queue,hashmap and their implementation  
+🔗 Code: [code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/stackAndQueue)
+🔗 Code: [code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/Hashmap)
+
+📅 17/01/26  
+📌 Data Structures – Sorting algorithm
+📝 Story: solved sorting related problem.  
+🔗 Code: [code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/sorting)
+
+📅 17/01/26  
+📌 Data Structures – Linear Search and binary search.
+📝 Story: Solved problems related to linear and binary Search
+🔗 Code: [code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/linear_and_binary_search)
+
+📅 20/01/26  
+📌 Data Structures – Runtime analysis
+📝 Story: Compare performance of various algorithm .  
+🔗 Code: [code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/algorithm_analysis)
+
+
 
 
 ---

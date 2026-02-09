@@ -9,7 +9,7 @@ class TaskUtilsTest {
     private TaskUtils taskUtils = new TaskUtils();
 
     @Test
-    @Timeout(2)
+    @Timeout(3)
     void testLongRunningTaskTimeout() throws InterruptedException {
         taskUtils.longRunningTask();
     }

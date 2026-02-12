@@ -44,8 +44,8 @@ public class NotificationFiltering {
 
 class Alert {
     String message;                                  // Stores the main message of alert
-    String severity;                                 // Stores the severity of alert for e.g. critical / normal
-    String category;                                 // Stores the category of alert for e.g. vitals / medication / schedule / reports
+    String severity;                                 // Stores the severity of alert
+    String category;                                 // Stores the category of alert
 
     // Constructor of Alert class to initialize the instance variable
     public Alert(String message, String severity, String category) {

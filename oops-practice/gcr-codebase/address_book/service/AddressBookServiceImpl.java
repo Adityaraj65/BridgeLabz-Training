@@ -1,37 +1,41 @@
 package address_book.service;
+
+import java.util.List;
+
 import address_book.dao.AddressBookDao;
 import address_book.dao.AddressBookDaoImpl;
 import address_book.model.ContactPerson;
 
-// Handles business logic
+// Service = rules + delegation
 public class AddressBookServiceImpl implements AddressBookService {
 
     private AddressBookDao dao = new AddressBookDaoImpl();
 
     @Override
-    public void addContact(ContactPerson person) {
-        // Validation can be added later
-        dao.addContact(person);
+    public boolean createAddressBook(String bookName) {
+        return dao.createAddressBook(bookName);
     }
+
     @Override
-    public boolean editContact(String firstName, String lastName,
+    public boolean addContact(String bookName, ContactPerson person) {
+        return dao.addContact(bookName, person);
+    }
+
+    @Override
+    public boolean editContact(String bookName, String firstName, String lastName,
                                String address, String city, String state,
                                String zip, String phone, String email) {
-
-        ContactPerson person = dao.findByName(firstName, lastName);
-
-        if (person == null) {
-            return false;
-        }
-
-        person.setAddress(address);
-        person.setCity(city);
-        person.setState(state);
-        person.setZip(zip);
-        person.setPhoneNumber(phone);
-        person.setEmail(email);
-
-        return true;
+        return dao.editContact(bookName, firstName, lastName,
+                address, city, state, zip, phone, email);
     }
 
+    @Override
+    public boolean deleteContact(String bookName, String firstName, String lastName) {
+        return dao.deleteContact(bookName, firstName, lastName);
+    }
+
+    @Override
+    public List<ContactPerson> searchPersonByCityOrState(String value) {
+        return dao.searchByCityOrState(value);
+    }
 }

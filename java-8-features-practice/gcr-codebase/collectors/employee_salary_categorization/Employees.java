@@ -1,11 +1,11 @@
 package collectors.employee_salary_categorization;
 
-class Employee {
+class Employees {
 
     private String name;
     private String department;
     private double salary;
-    public Employee(String name, String department, double salary) {
+    public Employees(String name, String department, double salary) {
         this.name = name;
         this.department = department;
         this.salary = salary;

@@ -7,17 +7,17 @@ public class EmployeeSalaryCategorization {
 
     public static void main(String[] args) {
 
-        List<Employee> employees = Arrays.asList(
-                new Employee("Rohit", "IT", 60000),
-                new Employee("Anjali", "IT", 70000),
-                new Employee("Aman", "HR", 45000),
-                new Employee("Neha", "HR", 55000),
-                new Employee("Karan", "Sales", 52000)
+        List<Employees> employees = Arrays.asList(
+                new Employees("Rohit", "IT", 60000),
+                new Employees("Anjali", "IT", 70000),
+                new Employees("Aman", "HR", 45000),
+                new Employees("Neha", "HR", 55000),
+                new Employees("Karan", "Sales", 52000)
         );
 
         Map<String, Double> avgSalaryByDept =
                 employees.stream()
-                        .collect(Collectors.groupingBy(Employee::getDepartment, Collectors.averagingDouble(Employee::getSalary)));
+                        .collect(Collectors.groupingBy(Employees::getDepartment, Collectors.averagingDouble(Employees::getSalary)));
 
         // Print result
         avgSalaryByDept.forEach((dept, avgSalary) ->

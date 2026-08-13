@@ -7,8 +7,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.stream.IntStream;
 
-
-
 public class RecursionDavisStaircase {
 	 public static int stepPerms(int n) {
 		    int[] dp = new int[n + 1];

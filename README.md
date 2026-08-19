@@ -204,7 +204,48 @@ Topics: Mutable vs immutable strings, StringBuilder & StringBuffer, performance 
 📝 Story: Compare performance of various algorithm .  
 🔗 Code: [code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/algorithm_analysis)
 
+## refresher-training Branch
 
+📌 **Day 1 – Programming Foundation + Primitive Data Structures**
+📝 **Story:** Covered the fundamentals of Data Structures, primitive vs non-primitive data structures, arrays, and basic string operations. Practiced array traversal, insertion, deletion, rotation, frequency count, and HackerRank problem-solving basics.
+🔗 **Code:** [code:](https://github.com/Adityaraj65/BridgeLabz-Training/tree/Refresher-Training/Refresher-Training/day1)
+
+📌 **Day 2 – Stacks & Queues**
+📝 **Story:** Solved problems related to stacks and queues, including push, pop, peek, enqueue, dequeue, and circular queue implementation. Practiced real-world applications such as balanced parentheses, infix-to-postfix conversion, undo operations, backtracking, and BFS.
+
+📌 **Day 3 – LinkedList, Trees, Graphs & Algorithm Analysis**
+📝 **Story:** Covered singly, doubly, and circular linked lists with insertion, deletion, traversal, and reversal. Practiced tree terminology and traversals, graph basics with adjacency lists, and introduction to Big-O, Big-Omega, and Big-Theta.
+
+📌 **Day 4 – Sorting Algorithms I**
+📝 **Story:** Solved problems related to Selection Sort, Insertion Sort, and Bubble Sort. Practiced algorithm tracing, complexity analysis, stability, in-place behaviour, and best, average, and worst-case analysis.
+
+
+📌 **Day 5 – Sorting Algorithms II + HackerRank Challenge #1**
+📝 **Story:** Covered Shell Sort, Merge Sort, and Quick Sort with pivot selection and partitioning using Lomuto and Hoare schemes. Also practiced problems as part of the first weekly HackerRank challenge.
+
+📌 **Day 6 – Searching Algorithms + Analysis**
+📝 **Story:** Solved problems related to Linear Search and Binary Search. Practiced iterative and recursive binary search, first and last occurrence, and searching in rotated sorted arrays.
+
+📌 **Day 7 – Recursion I**
+📝 **Story:** Covered recursive thinking using base cases and recursive cases. Practiced call stack visualization, head and tail recursion, factorial, Fibonacci, power function, digit sum, and string reversal.
+
+📌 **Day 8 – Recursion II**
+📝 **Story:** Practiced tree recursion, mutual recursion, and recursion vs iteration. Solved problems involving subsets, permutations, and backtracking concepts including subset sum and introduction to N-Queens.
+
+📌 **Day 9 – DSA Problem-Solving Marathon**
+📝 **Story:** Solved mixed DSA problems covering Arrays, Strings, Stacks, Queues, Sorting, Searching, and Recursion. Focused on identifying the appropriate data structure and algorithm based on problem constraints.
+
+📌 **Day 10 – Module 1 Consolidation + HackerRank Challenge #2**
+📝 **Story:** Revised Data Structures, Sorting, Searching, and Recursion concepts. Practiced targeted problems based on weak areas and participated in the second weekly HackerRank challenge covering Module 1 topics.
+
+📌 **Day 11 – Java Basics: Strings**
+📝 **Story:** Covered String, StringBuilder, and StringBuffer with focus on mutability, thread-safety, and performance. Practiced String manipulation and methods such as equals, compareTo, trim, replace, format, split, and join. Also solved palindrome, anagram, word-frequency, and string-compression problems.
+
+📌 **Day 12 – OOP with Java I**
+📝 **Story:** Covered Classes and Objects, Enums, instance and static variables, reference variables, access modifiers, and constructors. Practiced constructor overloading, default constructors, and the use of `this`.
+
+📌 **Day 13 – OOP with Java II**
+📝 **Story:** Covered inheritance and polymorphism in Java including single-level and multi-level inheritance, `extends`, `super`, method overloading, method overriding, compile-time and run-time polymorphism, and method hiding.
 
 
 ---
